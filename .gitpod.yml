@@ -1,0 +1,7 @@
+tasks:
+  - init: yarn install && yarn run build
+    command: yarn run start
+
+ports:
+  - port: 30000-60000
+    onOpen: ignore
